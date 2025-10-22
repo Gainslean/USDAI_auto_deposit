@@ -16,17 +16,17 @@ chain_name = {
 }
 
 rpc_url = {
-    'Arbitrum': "https://rpc.ankr.com/arbitrum/64354c6eecd1f73dadedaccbc1dda76b95cceb1582a6a07c03c9b9c20198b965",
-    'Optimism': "https://rpc.ankr.com/optimism/64354c6eecd1f73dadedaccbc1dda76b95cceb1582a6a07c03c9b9c20198b965",
-    'Base': "https://rpc.ankr.com/base/64354c6eecd1f73dadedaccbc1dda76b95cceb1582a6a07c03c9b9c20198b965",
-    'Polygon': "https://rpc.ankr.com/polygon/64354c6eecd1f73dadedaccbc1dda76b95cceb1582a6a07c03c9b9c20198b965",
-    'Ethereum': "https://rpc.ankr.com/eth/64354c6eecd1f73dadedaccbc1dda76b95cceb1582a6a07c03c9b9c20198b965",
-    'Avalance': "https://rpc.ankr.com/avalanche/64354c6eecd1f73dadedaccbc1dda76b95cceb1582a6a07c03c9b9c20198b965",
-    'Scroll': "https://rpc.ankr.com/scroll/64354c6eecd1f73dadedaccbc1dda76b95cceb1582a6a07c03c9b9c20198b965",
+    'Arbitrum': "https://rpc.ankr.com/arbitrum/",
+    'Optimism': "https://rpc.ankr.com/optimism/",
+    'Base': "https://rpc.ankr.com/base/",
+    'Polygon': "https://rpc.ankr.com/polygon/",
+    'Ethereum': "https://rpc.ankr.com/eth/",
+    'Avalance': "https://rpc.ankr.com/avalanche/",
+    'Scroll': "https://rpc.ankr.com/scroll/",
     'Abstract': "https://api.mainnet.abs.xyz",
-    'Mantle': "https://rpc.ankr.com/mantle/64354c6eecd1f73dadedaccbc1dda76b95cceb1582a6a07c03c9b9c20198b965",
+    'Mantle': "https://rpc.ankr.com/mantle/",
     'Berachain': "https://berachain.leakedrpc.com",
-    'BNB': "https://rpc.ankr.com/bsc/64354c6eecd1f73dadedaccbc1dda76b95cceb1582a6a07c03c9b9c20198b965",
+    'BNB': "https://rpc.ankr.com/bsc/",
     'Zora': "wss://zora.drpc.org",
     'Karak': "https://rpc.karak.network"
 }
@@ -87,4 +87,5 @@ with open('abis/abi.json') as file:
 
 with open('abis/usdai.json') as file:
     USDAI = json.load(file)
+
 
