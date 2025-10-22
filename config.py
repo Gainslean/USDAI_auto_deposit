@@ -16,7 +16,7 @@ chain_name = {
 }
 
 rpc_url = {
-    'Arbitrum': "https://rpc.ankr.com/arbitrum/",
+    'Arbitrum': "https://rpc.ankr.com/arbitrum/YOUR_KEY",
     'Optimism': "https://rpc.ankr.com/optimism/",
     'Base': "https://rpc.ankr.com/base/",
     'Polygon': "https://rpc.ankr.com/polygon/",
@@ -87,5 +87,6 @@ with open('abis/abi.json') as file:
 
 with open('abis/usdai.json') as file:
     USDAI = json.load(file)
+
 
 
